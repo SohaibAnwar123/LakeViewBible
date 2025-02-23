@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import './abstracts/variables';
+// 1. Base stuff
+@import 'base/fonts',
+'base/base',
+'base/typography';
+
+// 2. Page-specific styles
+@import 'views/home', 'views/sermons','views/calender', 'views/team';
+
+// 3. Reponsive
+@import 'responsive';

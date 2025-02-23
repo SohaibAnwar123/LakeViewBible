@@ -1,0 +1,208 @@
+// Ipad pro 
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .navWrap .hoverList .hoverUl li {
+        display: block;
+        width: 100%;
+
+        a {
+            font-size: 16px;
+            padding: 0;
+        }
+    }
+
+    .heroInner.heroSlick .slick-slide .heroBox p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .navWrap .hoverList:hover .hoverUl {
+        right: 0px;
+    }
+
+    .sundayActivities li {
+        padding: 12px !important;
+    }
+
+}
+
+//  ipad 
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .heroWrap {
+        margin-top: 60.8px;
+    }
+
+    .contactForm .formGroup {
+        width: 100%;
+    }
+
+    .navWrap {
+        .navbar-toggler {
+            padding: 0;
+            border: 0;
+            width: 20px;
+            height: 20px;
+
+            &:focus-visible {
+                outline: 0;
+                box-shadow: none;
+                border: 0;
+            }
+
+            &:focus {
+                outline: 0;
+                box-shadow: none;
+                border: 0;
+                background-color: unset !important;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .navbar-nav {
+            gap: 10px;
+            padding: 16px 0 0 0;
+        }
+
+        .navbar {
+            padding: 16px 0 !important;
+            height: 100% !important;
+            line-height: inherit !important;
+            box-shadow: unset;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+        }
+    }
+
+    .navWrap .hoverList:hover .hoverUl {
+        display: none;
+    }
+
+    .navWrap .hoverList {
+        .hoverUl {
+            &.hoverUl_ {
+                display: block !important;
+                width: 100%;
+                position: unset;
+                background-color: $primaryClr;
+                box-shadow: unset !important;
+                padding: 4px 0px;
+            }
+        }
+    }
+
+    .sermonsList .sermonsImg {
+        max-width: 150px;
+    }
+}
+
+//  mobile 
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .topicHead {
+        .sermonsList span {
+            font-size: 13px;
+        }
+        .sermonsList .sermonsLi {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .sermonsList .sermonsImg {
+            max-width: 200px;
+        }
+    }
+
+  
+
+    .heroBox {
+        height: 285px;
+    }
+
+    .rowSlide.aboutSlide .rowImg {
+        height: 240px;
+    }
+
+    .contactForm .formGroup label {
+        font-size: 12px;
+    }
+
+    .slickContainer .sliderArrow {
+        display: none;
+    }
+
+    .sermonsList .sermonsImg {
+        max-width: 100px;
+    }
+
+    .sundayBox .heroBox {
+        height: 300px;
+    }
+
+    .ourTeam {
+        .teamHead {
+            li {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                position: relative;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+
+                h3 {
+                    margin-bottom: 0;
+                }
+
+                p {
+                    text-align: start;
+                }
+
+                .chevIcon {
+                    position: absolute;
+                    right: 15px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 10px;
+                }
+            }
+        }
+
+        .teamUl {
+            display: none;
+
+            li {
+
+                h3,
+                span,
+                a {
+                    text-align: start;
+                    display: block;
+                }
+            }
+        }
+
+        .backArrow {
+            text-align: start;
+            gap: 5px;
+            align-items: center;
+
+            img {
+                width: 10px;
+            }
+        }
+    }
+}

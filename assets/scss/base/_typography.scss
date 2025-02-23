@@ -1,0 +1,21 @@
+h2 {
+    font-weight: 700;
+    font-size: clamp(30px, 3.14vw, 40px);
+    line-height: 120%;
+    color: #000000;
+    &.fs32{
+        font-size: calc(1.325rem + .9vw);
+    }
+}
+
+h3 {
+    font-weight: 700;
+    font-size: clamp(16px, 2.7vw, 24px);
+    line-height: 130%;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}

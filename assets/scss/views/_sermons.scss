@@ -1,0 +1,34 @@
+// .sermonsList sec start 
+.sermonsList {
+    margin-bottom: 30px;
+    .sermonsLi {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid rgba($color: #000, $alpha: 0.3);
+&:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+        span {
+            color: rgba($color: #2b2727, $alpha: 0.8);
+            display: block;
+        }
+
+        h3 {
+            margin-bottom: 5px;
+            color: $primaryTextClr;
+        }
+    }
+
+    .sermonsImg {
+        max-width: 200px;
+        width: 100%;
+        img{
+            border-radius: 12px;
+        }
+    }
+}

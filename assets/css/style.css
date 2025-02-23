@@ -1,0 +1,1335 @@
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-ExtraBold.eot");
+  src: url("../fonts/PublicSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-ExtraBold.woff2") format("woff2"), url("../fonts/PublicSans-ExtraBold.woff") format("woff"), url("../fonts/PublicSans-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-BlackItalic.eot");
+  src: url("../fonts/PublicSans-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-BlackItalic.woff2") format("woff2"), url("../fonts/PublicSans-BlackItalic.woff") format("woff"), url("../fonts/PublicSans-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Black.eot");
+  src: url("../fonts/PublicSans-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-Black.woff2") format("woff2"), url("../fonts/PublicSans-Black.woff") format("woff"), url("../fonts/PublicSans-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-ExtraBoldItalic.eot");
+  src: url("../fonts/PublicSans-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/PublicSans-ExtraBoldItalic.woff") format("woff"), url("../fonts/PublicSans-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Bold.eot");
+  src: url("../fonts/PublicSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-Bold.woff2") format("woff2"), url("../fonts/PublicSans-Bold.woff") format("woff"), url("../fonts/PublicSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-BoldItalic.eot");
+  src: url("../fonts/PublicSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-BoldItalic.woff2") format("woff2"), url("../fonts/PublicSans-BoldItalic.woff") format("woff"), url("../fonts/PublicSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-ExtraLight.eot");
+  src: url("../fonts/PublicSans-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-ExtraLight.woff2") format("woff2"), url("../fonts/PublicSans-ExtraLight.woff") format("woff"), url("../fonts/PublicSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Medium.eot");
+  src: url("../fonts/PublicSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-Medium.woff2") format("woff2"), url("../fonts/PublicSans-Medium.woff") format("woff"), url("../fonts/PublicSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Italic.eot");
+  src: url("../fonts/PublicSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-Italic.woff2") format("woff2"), url("../fonts/PublicSans-Italic.woff") format("woff"), url("../fonts/PublicSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Regular.eot");
+  src: url("../fonts/PublicSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-Regular.woff2") format("woff2"), url("../fonts/PublicSans-Regular.woff") format("woff"), url("../fonts/PublicSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-ExtraLightItalic.eot");
+  src: url("../fonts/PublicSans-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/PublicSans-ExtraLightItalic.woff") format("woff"), url("../fonts/PublicSans-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-MediumItalic.eot");
+  src: url("../fonts/PublicSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-MediumItalic.woff2") format("woff2"), url("../fonts/PublicSans-MediumItalic.woff") format("woff"), url("../fonts/PublicSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Light.eot");
+  src: url("../fonts/PublicSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-Light.woff2") format("woff2"), url("../fonts/PublicSans-Light.woff") format("woff"), url("../fonts/PublicSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-LightItalic.eot");
+  src: url("../fonts/PublicSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-LightItalic.woff2") format("woff2"), url("../fonts/PublicSans-LightItalic.woff") format("woff"), url("../fonts/PublicSans-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-ThinItalic.eot");
+  src: url("../fonts/PublicSans-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-ThinItalic.woff2") format("woff2"), url("../fonts/PublicSans-ThinItalic.woff") format("woff"), url("../fonts/PublicSans-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Thin.eot");
+  src: url("../fonts/PublicSans-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-Thin.woff2") format("woff2"), url("../fonts/PublicSans-Thin.woff") format("woff"), url("../fonts/PublicSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-SemiBold.eot");
+  src: url("../fonts/PublicSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-SemiBold.woff2") format("woff2"), url("../fonts/PublicSans-SemiBold.woff") format("woff"), url("../fonts/PublicSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-SemiBoldItalic.eot");
+  src: url("../fonts/PublicSans-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/PublicSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/PublicSans-SemiBoldItalic.woff") format("woff"), url("../fonts/PublicSans-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Public Sans";
+  color: #2b2727;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.accordion-button {
+  background-color: unset !important;
+}
+.accordion-button:focus-visible {
+  outline: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: unset;
+}
+
+.accordion-item {
+  background-color: unset;
+  border: 0;
+  border-radius: 0;
+}
+
+.nav.nav-tabs {
+  border: 0;
+}
+.nav.nav-tabs .nav-link {
+  border: 0;
+  color: inherit;
+  padding: 0;
+}
+.nav.nav-tabs .nav-link.active {
+  outline: none;
+  border: 0;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.flex_align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_bt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1270px;
+  width: 100%;
+}
+
+.fw700 {
+  font-weight: 700 !important;
+}
+
+.fw600 {
+  font-weight: 600 !important;
+}
+
+.fw500 {
+  font-weight: 500 !important;
+}
+
+.fw400 {
+  font-weight: 400 !important;
+}
+
+.fw300 {
+  font-weight: 300 !important;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.primaryTxt {
+  color: #003859 !important;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: clamp(30px, 3.14vw, 40px);
+  line-height: 120%;
+  color: #000000;
+}
+h2.fs32 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+h3 {
+  font-weight: 700;
+  font-size: clamp(16px, 2.7vw, 24px);
+  line-height: 130%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.navWrap {
+  background-color: #003859;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+.navWrap nav,
+.navWrap nav .nav-wrapper i,
+.navWrap nav a.button-collapse,
+.navWrap nav a.button-collapse i {
+  height: inherit;
+  line-height: inherit;
+}
+.navWrap .nav-link {
+  padding: 0 !important;
+  font-size: 17px;
+  color: inherit;
+}
+.navWrap .hoverList {
+  position: relative;
+  cursor: pointer;
+}
+.navWrap .hoverList img {
+  width: 16px;
+  height: 16px;
+}
+.navWrap .hoverList:hover .hoverUl {
+  opacity: 1;
+  visibility: visible;
+  background-color: #2b2727;
+  padding: 12px 0px;
+  right: -20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  top: 25px;
+}
+.navWrap .hoverList:hover .hoverUl li {
+  padding: 8px 10px;
+  line-height: 1;
+}
+.navWrap .hoverList:hover .hoverUl li:hover {
+  background-color: #003859;
+}
+.navWrap .hoverList:hover .hoverUl .navLink {
+  text-wrap: nowrap;
+  color: #fff;
+}
+.navWrap .hoverList .hoverUl {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+.navWrap .navbar-nav {
+  gap: 20px;
+}
+.navWrap .navbar-brand {
+  font-size: 30px;
+  line-height: 1.2;
+  color: inherit;
+}
+.navWrap .navbar {
+  padding: 20px 0 !important;
+  background-color: inherit;
+  box-shadow: unset;
+}
+
+.heroInner.heroSlick .slick-slide {
+  margin: 0 10px;
+}
+
+.heroBox {
+  height: 400px;
+  background-color: #003859;
+  color: #fff;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.heroBox img {
+  height: 100%;
+  object-fit: fill;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.heroWrap {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 76px;
+}
+.heroWrap .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">");
+}
+.heroWrap .breadcrumb .breadcrumb-item {
+  text-transform: uppercase;
+  color: #bab6b6;
+}
+.heroWrap .breadcrumb .breadcrumb-item.active {
+  color: #003859;
+}
+.heroWrap .breadcrumb .breadcrumb-item a {
+  color: inherit;
+}
+.heroWrap h4 {
+  color: #003859;
+  margin: 10px 0;
+}
+.heroWrap h2 {
+  text-align: center;
+}
+.heroWrap h3 {
+  margin-bottom: 10px;
+}
+.heroWrap h2.heroTextMain {
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+.rowSlide {
+  margin: 0 15px;
+}
+.rowSlide .rowImg {
+  height: 170px;
+  flex-direction: column;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.rowSlide .rowImg:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.rowSlide .rowImg img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.rowSlide p {
+  margin-top: 8px !important;
+  text-align: center;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.rowSlide.aboutSlide .rowImg {
+  height: 300px;
+}
+.rowSlide.minisSlide {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.rowSlide.minisSlide:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.rowSlide.minisSlide .rowImg {
+  height: 200px;
+}
+.rowSlide.minisSlide .rowImg:hover {
+  transform: unset;
+}
+.rowSlide.minisSlide p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 0;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+}
+
+.sectionElement {
+  padding-top: 20px;
+}
+.sectionElement .slick-list {
+  padding: 15px 0 !important;
+}
+.sectionElement h3 {
+  color: #003859;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+.sectionElement p {
+  margin: 5px 0;
+  padding-left: 15px;
+  color: #2b2727;
+}
+.sectionElement .arrowsWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slickContainer {
+  position: relative;
+}
+.slickContainer .sliderArrow {
+  background-color: #fff;
+  display: flex !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slickContainer .sliderArrow.slick-disabled {
+  opacity: 0.5;
+}
+.slickContainer .sliderArrow svg {
+  fill: #000;
+}
+.slickContainer .sliderArrow.slick-prev-hero {
+  left: -12px;
+}
+.slickContainer .sliderArrow.slick-next-hero {
+  right: -12px;
+}
+.slickContainer .sliderArrow.slick-prev-sermons {
+  left: -12px;
+}
+.slickContainer .sliderArrow.slick-next-sermons {
+  right: -12px;
+}
+.slickContainer .sliderArrow.slick-prev-about {
+  left: -12px;
+}
+.slickContainer .sliderArrow.slick-next-about {
+  right: -12px;
+}
+.slickContainer .sliderArrow.slick-prev-ministries {
+  left: -12px;
+}
+.slickContainer .sliderArrow.slick-next-ministries {
+  right: -12px;
+}
+
+.sundayBox {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.sundayBox .selectedScript {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.sundayBox .selectedScript p {
+  color: #2b2727;
+}
+.sundayBox .heroBox {
+  height: 430px;
+}
+.sundayBox h4 {
+  font-size: 18px;
+  line-height: 1;
+  color: #2b2727;
+}
+.sundayBox ol {
+  color: #003859;
+  padding-left: 20px;
+}
+.sundayBox li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sundayBox li:nth-of-type(1) {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sundayBox li:last-of-type {
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.sundayBox p {
+  color: #2b2727;
+}
+.sundayBox img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sundayActivities {
+  margin: 25px 0;
+  color: #fff;
+}
+.sundayActivities .subTitle {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 10px;
+  display: block;
+  line-height: 1;
+}
+.sundayActivities li {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2b2727;
+  align-items: center;
+}
+.sundayActivities li:first-of-type {
+  background-color: unset;
+  padding: 0;
+}
+.sundayActivities li p {
+  font-weight: 700;
+  text-align: center;
+}
+.sundayActivities li p a {
+  color: inherit;
+}
+.sundayActivities li span {
+  color: rgba(0, 0, 0, 0.7);
+  display: block;
+  text-transform: uppercase;
+}
+
+.callBtn {
+  padding: 10px 80px;
+  background-color: #003859;
+  width: fit-content;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px 0;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+.contactForm .formGroup {
+  position: relative;
+  width: calc(50% - 10px);
+}
+.contactForm .formGroup label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  color: #002d47;
+  line-height: 1;
+  font-size: 14px;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+.contactForm .formGroup label.active {
+  top: 0;
+  transition: all 0.3s;
+  background-color: #002d47;
+  padding: 6px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #fff;
+}
+.contactForm .formGroup .inputIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+.contactForm .formGroup.formGroup_ label {
+  left: 40px;
+}
+.contactForm .formGroup.formGroup_ input {
+  padding-left: 40px;
+}
+.contactForm .formGroup input {
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #002d47;
+  box-shadow: none;
+  background-color: unset;
+  height: 45px;
+  font-size: 15px;
+  line-height: 1;
+}
+.contactForm .contactBtn {
+  background-color: #003859;
+  border: 1px solid #003859;
+  width: fit-content;
+  line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+.contactForm .contactBtn:hover {
+  color: #003859;
+  border-color: #003859;
+  background-color: unset;
+}
+
+.topicHead {
+  padding-top: 16px;
+}
+.topicHead + .topicHead {
+  margin-top: 50px;
+}
+.topicHead .sermonsList:last-of-type {
+  margin-bottom: 0;
+}
+.topicHead h5 {
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-bottom: 2px solid #E1DFDF;
+  padding-bottom: 1px;
+  margin-bottom: 16px;
+}
+.topicHead p {
+  color: #2b2727;
+}
+.topicHead p a {
+  color: inherit;
+}
+
+.basicTemp {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.basicTemp ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+.basicTemp .blockquote {
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  margin: 20px auto;
+  padding: 24px 24px 24px 56px;
+  position: relative;
+}
+.basicTemp h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+.basicTemp h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.basicTemp h3 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+.basicTemp h4 {
+  font-size: 1.25rem;
+}
+.basicTemp h5 {
+  font-size: 1rem;
+}
+.basicTemp h6 {
+  font-size: 0.875rem;
+}
+
+.sermonsList {
+  margin-bottom: 30px;
+}
+.sermonsList .sermonsLi {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.sermonsList .sermonsLi:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.sermonsList .sermonsLi span {
+  color: rgba(43, 39, 39, 0.8);
+  display: block;
+}
+.sermonsList .sermonsLi h3 {
+  margin-bottom: 5px;
+  color: #2b2727;
+}
+.sermonsList .sermonsImg {
+  max-width: 200px;
+  width: 100%;
+}
+.sermonsList .sermonsImg img {
+  border-radius: 12px;
+}
+
+.heroWrap.calendarWrap .calendar-wrapper {
+  height: auto;
+  max-width: 730px;
+  margin: 0 auto;
+}
+.heroWrap.calendarWrap .calendar-header {
+  background-color: rgba(18, 15, 25, 0.25);
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  position: relative;
+}
+.heroWrap.calendarWrap .header-title {
+  padding-left: 15%;
+}
+.heroWrap.calendarWrap .header-background {
+  background-image: url("https://raw.githubusercontent.com/JustMonk/codepen-resource-project/master/img/compressed-header.jpg");
+  height: 200px;
+  background-position: center right;
+  background-size: cover;
+}
+.heroWrap.calendarWrap .calendar-content {
+  background-color: #fff;
+  padding: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  overflow: hidden;
+}
+.heroWrap.calendarWrap .event-mark {
+  width: 5px;
+  height: 5px;
+  background-color: teal;
+  border-radius: 100px;
+  position: absolute;
+  left: 46%;
+  top: 70%;
+}
+.heroWrap.calendarWrap .calendar-footer {
+  height: 200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #003859 !important;
+  position: relative;
+  overflow: hidden;
+}
+.heroWrap.calendarWrap .addForm {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #003859 !important;
+  transition: top 0.5s cubic-bezier(1, 0, 0, 1);
+  padding: 0 5px 0 5px;
+}
+.heroWrap.calendarWrap .addForm input {
+  color: #fff;
+}
+.heroWrap.calendarWrap .addForm .row {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-bottom: 0;
+}
+.heroWrap.calendarWrap .addForm h4 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.heroWrap.calendarWrap .addEventButtons {
+  text-align: right;
+  padding: 0 0.75rem 0 0.75rem;
+}
+.heroWrap.calendarWrap .addEventButtons a {
+  color: black;
+  font-weight: 300;
+}
+.heroWrap.calendarWrap .emptyForm {
+  padding: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.heroWrap.calendarWrap .emptyForm h4 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.heroWrap.calendarWrap .sidebar-wrapper {
+  color: #fff;
+  background-color: #003859 !important;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-left: 0;
+  padding-right: 0;
+  left: auto;
+}
+.heroWrap.calendarWrap .sidebar-title {
+  padding: 50px 6% 50px 12%;
+}
+.heroWrap.calendarWrap .sidebar-title h4 {
+  margin-top: 0;
+  color: #fff;
+}
+.heroWrap.calendarWrap .sidebar-events {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-bottom: 70px;
+}
+.heroWrap.calendarWrap .empty-message {
+  font-size: 1.2rem;
+  padding: 15px 6% 15px 12%;
+}
+.heroWrap.calendarWrap .eventCard {
+  background-color: #fff;
+  color: black;
+  padding: 12px 24px 12px 24px;
+  border-bottom: 1px solid #E5E5E5;
+  white-space: nowrap;
+  position: relative;
+  animation: slideInDown 0.5s;
+}
+.heroWrap.calendarWrap .eventCard-header {
+  font-weight: bold;
+}
+.heroWrap.calendarWrap .eventCard-description {
+  color: grey;
+}
+.heroWrap.calendarWrap .eventCard-mark-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 60px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 25%, rgb(255, 255, 255) 100%);
+}
+.heroWrap.calendarWrap .eventCard-mark {
+  width: 8px;
+  height: 8px;
+  background-color: #b39ddb;
+  border-radius: 100px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+}
+.heroWrap.calendarWrap .day-mark {
+  width: 7px;
+  height: 7px;
+  background-color: #b39ddb;
+  border-radius: 100px;
+  position: absolute;
+  left: 47%;
+  top: 67%;
+}
+.heroWrap.calendarWrap .content-wrapper {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  margin-left: 300px;
+}
+.heroWrap.calendarWrap #table-body .col:hover {
+  cursor: pointer;
+  /*border: 1px solid grey;*/
+  background-color: #E0E0E0;
+}
+.heroWrap.calendarWrap .empty-day:hover {
+  cursor: default !important;
+  background-color: #fff !important;
+}
+.heroWrap.calendarWrap #table-body .row .col {
+  padding: 0.75rem;
+}
+.heroWrap.calendarWrap #table-body .col {
+  border: 1px solid transparent;
+}
+.heroWrap.calendarWrap #table-body .row {
+  margin-bottom: 0;
+}
+.heroWrap.calendarWrap #table-body .col {
+  padding-top: 1.3rem !important;
+  padding-bottom: 1.3rem !important;
+}
+.heroWrap.calendarWrap #calendar-table {
+  text-align: center;
+}
+.heroWrap.calendarWrap .prev-button {
+  position: absolute;
+  cursor: pointer;
+  left: 0%;
+  top: 35%;
+  color: grey !important;
+}
+.heroWrap.calendarWrap .prev-button i {
+  font-size: 4em;
+}
+.heroWrap.calendarWrap .next-button {
+  position: absolute;
+  cursor: pointer;
+  right: 0%;
+  top: 35%;
+  color: grey !important;
+}
+.heroWrap.calendarWrap .next-button i {
+  font-size: 4em;
+}
+.heroWrap.calendarWrap .addEvent {
+  box-shadow: 0 5px 15px rgb(57, 168, 228);
+  background-color: #39a8e4;
+  padding: 10px;
+  padding-left: 3em;
+  padding-right: 3em;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #fff !important;
+  background-image: linear-gradient(135deg, #8d8dd4, #45ced4);
+}
+.heroWrap.calendarWrap .addEvent:hover {
+  transition: box-shadow 0.5s;
+  box-shadow: 0 4px 25px rgb(57, 168, 228);
+}
+.heroWrap.calendarWrap .mobile-header {
+  padding: 0;
+  display: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background-color: #003859 !important;
+}
+.heroWrap.calendarWrap .mobile-header a i {
+  color: #fff;
+  font-size: 38px;
+}
+.heroWrap.calendarWrap .mobile-header h4 {
+  color: #fff;
+}
+.heroWrap.calendarWrap .mobile-header .row {
+  margin-bottom: 0;
+}
+.heroWrap.calendarWrap .mobile-header h4 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.calendarList {
+  margin-left: 300px;
+}
+.calendarList ul {
+  max-width: 730px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.calendarList ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.calendarList ul li:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.calendarList ul li div {
+  width: 40%;
+  padding: 8px;
+}
+.calendarList ul li div:last-of-type {
+  width: 60%;
+}
+.calendarList ul li div:last-of-type p:first-of-type {
+  color: #5E7D65;
+}
+
+@media (max-width: 1199.98px) {
+  .heroWrap.calendarWrap .sidebar-wrapper {
+    left: 0;
+  }
+}
+@media (max-width: 992px) {
+  .calendarList {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .heroWrap.calendarWrap {
+    padding-top: 90px;
+  }
+  .heroWrap.calendarWrap .content-wrapper {
+    margin-left: 0;
+  }
+  .heroWrap.calendarWrap .mobile-header {
+    display: block;
+    top: 60px;
+    width: 100%;
+    left: 0;
+    padding: 15px 20px;
+    background-color: #000 !important;
+  }
+  .heroWrap.calendarWrap .calendar-wrapper {
+    margin-top: 0px;
+  }
+  .heroWrap.calendarWrap .sidebar-wrapper {
+    background-color: #EEEEEE !important;
+    padding-top: 60px;
+  }
+  .heroWrap.calendarWrap .sidebar-title {
+    background-color: #003859 !important;
+  }
+  .heroWrap.calendarWrap .empty-message {
+    color: black;
+  }
+}
+@media (max-width: 767px) {
+  .heroWrap.calendarWrap .content-wrapper .container {
+    width: auto;
+  }
+  .heroWrap.calendarWrap .calendar-content {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .heroWrap.calendarWrap body .row {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 450px) {
+  .calendarList ul li div p {
+    font-size: 14px;
+  }
+  .heroWrap.calendarWrap .content-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .heroWrap.calendarWrap .content-wrapper .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.ourTeam {
+  text-align: center;
+}
+.ourTeam .teamImg {
+  max-width: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  height: 350px;
+}
+.ourTeam .teamImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left;
+}
+
+.teamUl {
+  margin-bottom: 30px;
+}
+.teamUl:last-child {
+  margin-bottom: 0;
+}
+.teamUl li {
+  padding: 6px 0;
+  text-align: start;
+}
+.teamUl li a {
+  color: #2b2727;
+}
+.teamUl li h3 {
+  margin-bottom: 0;
+}
+.teamUl li p {
+  text-align: start;
+}
+
+@media (max-width: 1199.98px) {
+  .navWrap .hoverList .hoverUl li {
+    display: block;
+    width: 100%;
+  }
+  .navWrap .hoverList .hoverUl li a {
+    font-size: 16px;
+    padding: 0;
+  }
+  .heroInner.heroSlick .slick-slide .heroBox p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .navWrap .hoverList:hover .hoverUl {
+    right: 0px;
+  }
+  .sundayActivities li {
+    padding: 12px !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .heroWrap {
+    margin-top: 60.8px;
+  }
+  .contactForm .formGroup {
+    width: 100%;
+  }
+  .navWrap .navbar-toggler {
+    padding: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+  }
+  .navWrap .navbar-toggler:focus-visible {
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+  }
+  .navWrap .navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    background-color: unset !important;
+  }
+  .navWrap .navbar-toggler img {
+    width: 100%;
+    height: 100%;
+  }
+  .navWrap .navbar-nav {
+    gap: 10px;
+    padding: 16px 0 0 0;
+  }
+  .navWrap .navbar {
+    padding: 16px 0 !important;
+    height: 100% !important;
+    line-height: inherit !important;
+    box-shadow: unset;
+  }
+  .navWrap .navbar-brand {
+    font-size: 24px;
+  }
+  .navWrap .hoverList:hover .hoverUl {
+    display: none;
+  }
+  .navWrap .hoverList .hoverUl.hoverUl_ {
+    display: block !important;
+    width: 100%;
+    position: unset;
+    background-color: #003859;
+    box-shadow: unset !important;
+    padding: 4px 0px;
+  }
+  .sermonsList .sermonsImg {
+    max-width: 150px;
+  }
+}
+@media (max-width: 575.98px) {
+  .topicHead .sermonsList span {
+    font-size: 13px;
+  }
+  .topicHead .sermonsList .sermonsLi {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .topicHead .sermonsList .sermonsImg {
+    max-width: 200px;
+  }
+  .heroBox {
+    height: 285px;
+  }
+  .rowSlide.aboutSlide .rowImg {
+    height: 240px;
+  }
+  .contactForm .formGroup label {
+    font-size: 12px;
+  }
+  .slickContainer .sliderArrow {
+    display: none;
+  }
+  .sermonsList .sermonsImg {
+    max-width: 100px;
+  }
+  .sundayBox .heroBox {
+    height: 300px;
+  }
+  .ourTeam .teamHead li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  .ourTeam .teamHead li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .ourTeam .teamHead li h3 {
+    margin-bottom: 0;
+  }
+  .ourTeam .teamHead li p {
+    text-align: start;
+  }
+  .ourTeam .teamHead li .chevIcon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+  }
+  .ourTeam .teamUl {
+    display: none;
+  }
+  .ourTeam .teamUl li h3,
+  .ourTeam .teamUl li span,
+  .ourTeam .teamUl li a {
+    text-align: start;
+    display: block;
+  }
+  .ourTeam .backArrow {
+    text-align: start;
+    gap: 5px;
+    align-items: center;
+  }
+  .ourTeam .backArrow img {
+    width: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
